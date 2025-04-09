@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Ride | Chirrinzane </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Booking becomes easy</h1>
+            <h1>Your Ride, Your Way!</h1>
+            <p>Choose from a variety of transport options to match your travel needs. Quick, secure, and hassle-free booking.</p>
+            <button>Start Your Booking</button>
+        </div>
+    </header>
+
+    <section class="why-choose">
+        <h2>Transport Options Overview</h2>
+        <ul>
+            <li><strong>Taxis & Private Cars:</strong> Ideal for quick city travel and flexible routes.</li>
+            <li><strong>Shuttle $ Van Services:</strong> Affordable shared rides for airport transfers and long-distance routes.</li>
+            <li><strong>Car Rentals:</strong> Self-driven or chauffeur-driven vehicles for independent travel.</li>
+            <li><strong>Safari Transfers:</strong> Special vehicles designed for Kruger and other wildlife tours.</li>
+            <li><strong>Boat & Island Transfers:</strong> Speedboats and ferries for island excursions.</li>
+        </ul>
+    </section>
+
+    <section class="booking">
+        <h2>Booking your trip</h2>
+        <form>
+            <!-- CC : Utilizar um formulário para selecionar a reserva -->
+            <label for="pickup">Pickup Location:</label>
+            <input type="text" id="pickup" name="pickup" required>
+            <label for="dropoff">Drop-off Location:</label>
+            <input type="text" id="dropoff" name="dropoff" required>
+            <label for="datetime">Date & Time:</label>
+            <input type="datetime-local" id="datetime" name="datetime" required>
+            <label for="vehicle">Select Transport Type:</label>
+            <select id="vehicle" name="vehicle">
+                <option value="van">Van-13 seaters</option>
+                <option value="suv">Suv-6 seaters</option>
+                <option value="bus">Bus-32 seaters</option>
+                <option value="rental">Car Rental</option>
+                <option value="boat">Boat Transfer</option>
+                <option value="safari">Safari Tour</option>
+            </select>
+            <!-- CC : Preciso de ligar com o backend -->
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </section>
+
+    <section class="why-choose">
+        <h2>Transparent Pricing & Payment Options</h2>                    
+        <!-- CC : Preciso de aprender como incorporar pagamentos -->
+        <ul><p><strong>Pricing Table:</strong> Displays estimated fares based on distance and vehicle type.</p></ul> 
+        <ul>
+            <li><strong>- No Hidden Costs:</strong> All fees, taxes, and surcharges are shown upfront.</li>
+            <li><strong>- Accepted Payment Methods:</strong>
+                <ul>
+                    <li>- Credit/Debit Cards (Visa, MasterCard, AMEX)</li>
+                    <li>- Mobile Wallets (Apple Pay, Google Pay, M-Pesa)</li>
+                    <li>- Pay-on-Arrival (Cash or Card with the driver)</li>
+                    <li>- Cryptocurrency Payments (For added flexibility)</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="why-choose">
+        <!-- CC : Precisaria de adicionar detalhes para cada questão com uma tabela que abrisse/fechasse bem. -->
+        <h2>FAQs – Common Booking Questions</h2>
+        <ul>
+            <li>How do I cancel or modify my booking?</li>
+            <li>What happens if my driver is late?</li>
+            <li>Can I request a multilingual driver?</li>
+            <li>Are there additional fees for luggage or extra stops?</li>
+            <li>What safety measures are in place for travelers?</li>
+            <li>What are the refund policies in case of cancellations?</li>
+            <li>Can I book transport for someone else?</li>
+        </ul>
+    </section>
+
+    <section class="why-choose">
+         <!-- CC : O ideal seria melhorar o site com estes recursos -->
+        <h2>Customer Support & Assistance</h2>
+        <ul>
+            <li><strong>Live Chat:</strong> 24/7 customer service for instant help.</li>
+            <li><strong>Phone & WhatsApp Support:</strong> Dedicated support numbers.</li>
+            <li><strong>Email Assistance:</strong> Quick response for booking inquiries and concerns.</li>
+            <li><strong>AI Chatbot:</strong> Automated assistance for frequently asked questions and quick booking guidance.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <!-- CC : A pagina de contactos a ser desenvolvido (contact.html) -->
+        <p>&copy; 2025 Chirrinzane Tour and Transport. All rights reserved.</p>
+        <p><a href="HomePage_Transport_Tourism.html">Home</a> | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
